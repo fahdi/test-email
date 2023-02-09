@@ -24,5 +24,9 @@ final class EmailTest extends TestCase
             'user@example.com',
             Email::fromString('user@example.com')
         );
+	    $this->assertEqualsIgnoringCase(
+		    'USER@example.com',
+		    Email::fromString('user@example.com')
+	    );
     }
 }
