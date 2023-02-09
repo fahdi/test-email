@@ -1,11 +1,11 @@
-# Test Email Repository
+# Email Class with a EmailTest.php class using PHPUnit 
 
 This repository is for testing the `Email.php` class, with the help of `EmailTest.php` which uses PHPUnit for unit testing. The `Email.php` class contains three different methods that will be tested.
 
 ## Requirements
 
-- PHP 7.2 or later
-- PHPUnit 8.5 or later
+- PHP 7.1 or later
+- PHPUnit 9.6 or later
 
 ## How to Run Tests
 
@@ -33,7 +33,7 @@ composer install
 vendor/bin/phpunit
 ```
 
-##TestDox
+## TestDox
 
 Below you see an alternative output which is based on the idea that the name of a test can be used to document the behavior that is verified by the test:
 
