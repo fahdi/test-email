@@ -1,0 +1,17 @@
+{
+    "name": "fahadmurtaza/php-unitest",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Fahad Murtaza",
+            "email": "434134+fahdi@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
