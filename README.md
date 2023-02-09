@@ -23,16 +23,23 @@ cd test-email
 
 1. Install dependencies using Composer:
 
-```
+```bash
 composer install
 ```
 
 1. Run PHPUnit to execute the tests:
 
-```python
+```bash
 vendor/bin/phpunit
 ```
 
+##TestDox
+
+Below you see an alternative output which is based on the idea that the name of a test can be used to document the behavior that is verified by the test:
+
+```bash
+./vendor/bin/phpunit --testdox tests
+```
 ## Code of Conduct
 
 Please refer to the [Code of Conduct](CODE_OF_CONDUCT.md) for guidelines on contributing to this repository.
