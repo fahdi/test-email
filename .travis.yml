@@ -1,0 +1,22 @@
+sudo: false
+dist: trusty
+
+language: php
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+branches:
+  only:
+    - main
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_script: composer require atoum/atoum
+install: composer install
+
+script: phpunit
